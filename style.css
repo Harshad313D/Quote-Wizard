@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color:#; */
+    background-color:#87CEEB;
+
+}
+.container {
+    text-align: center;
+    background: #FFF8E1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(169, 160, 160, 0.1);
+    
+}
+.container h1{
+    color: #191913;
+}
+#quote-box {
+    margin-bottom: 20px;
+}
+#quote {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #0b0b0b;
+}
+#author {
+    font-size: 1.2em;
+    color: #dda15e;
+}
+button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color:#008080;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3a3a28;
+}
+.music-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+#music-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url('/assets/play.jpg'); /* Replace with your play icon image path */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#music-button.play {
+    background-image: url('/assets/play.jpg');
+}
+#music-button.pause {
+    background-image: url('/assets/pause.jpg');
+}
+
+
+
