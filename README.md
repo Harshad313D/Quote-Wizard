@@ -34,11 +34,12 @@ To use the quote generator:
 
 ## Directory Structure
 After cloning, your project should look like this:
-
 ```css
-quote-generator/
+quote-wizard/
+├── assets/
+│   ├── images/
+│   ├── music/
+│   └── icons/
 ├── index.html
-├── styles.css
-├── script.js
-└── README.md
+└── style.css
 ```
